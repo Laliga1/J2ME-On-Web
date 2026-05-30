@@ -1,21 +1,22 @@
 # J2ME-On-Web
-Ejecuta archivos .jar de J2ME en tu navegador.
+Run J2ME .jar files in your browser.
 
-# ¿Cómo ejecutarlo?
-Si usted tiene python instalado, simplemente escriba en su consola CMD en Windows:
+# How to run it?
+
+If you have Python installed, simply type the following in your Windows command prompt (CMD):
 ```bash
 python server.py
 ```
-Tambien puede usar "http-server" si tiene Node.js instalado y ejecutar este comando en la carpeta del repositorio:
+You can also use "http-server" if you have Node.js installed and run this command in the repository folder:
 ```bash
 npm install -g http-server
 http-server
 ```
-# ¿Cómo agregar un juego?
-De forma predeterminada existe un juego con el nombre "game.jar" el cuál es "Real Football 2012" añadido con motivos de experimentación, reemplaze este juego por otro de su preferencia si desea bajo el nombre "game.jar"; recuerde que puede modificar el "index.html" de acuerdo a sus preferencias.
+# How to add a game?
 
-# Herramientas:
-El proyecto se creó gracias a CheerpJ, una máquina virtual en el navegador la cual puede ejecutar archivos .jar y dependencias.
-El archivo J2ME-Plus junto a su versión "SDL".
+By default, there is a game named "game.jar" which is "Real Football 2012" added for experimental purposes. Replace this game with another of your choice, also named "game.jar". Remember that you can modify the "index.html" file according to your preferences.
 
-# Gracias por leer
+# Tools:
+The project was created using CheerpJ, a browser-based virtual machine that can run .jar files and dependencies. The J2ME-Plus file along with its "SDL" version.
+
+# Thanks for reading
